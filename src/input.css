@@ -1,0 +1,46 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.greetings{
+    border: solid goldenrod 2px;
+       border-radius: 50px;
+       background-color: lightblue;
+       color: coral;
+       font-weight: bolder;
+       padding: 2rem;
+       margin-top: 70px;
+       margin-left: 300px;
+       font-size: 2rem;
+   
+   }
+img{
+    max-height: 100vh;
+   
+   
+
+}
+.about{
+    margin-top: 10rem;
+}
+
+
+/* styles.css */
+
+/* Add your existing CSS styles here */
+
+/* Media queries for responsiveness */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Adjustments for smaller screens */
+    .greetings {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  
+ 
+ 
+  
